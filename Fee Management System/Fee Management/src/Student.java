@@ -398,7 +398,7 @@ public class Student extends Application
         linksBox.getChildren().addAll(bTechLink, mTechLink, backLink);
         bTechLink.setOnAction(e -> displayBTechFeeStructure());
         mTechLink.setOnAction(e -> displayMTechFeeStructure());
-        backLink.setOnAction(e -> createStudentDashboard());
+        backLink.setOnAction(e -> openStudentFee());
         StackPane linksPane = new StackPane(linksBox);
         Scene feeScene = new Scene(linksPane, 400, 400);
         primaryStage.setScene(feeScene);
@@ -615,7 +615,7 @@ public class Student extends Application
     }
 
     public int getTotalBalance() {
-        return 260000 - (getFirstYearBalance() + getSecondYearBalance() + getThirdYearBalance() + getFourthYearBalance());
+        return 260000 - (getFirstYearFee() + getSecondYearFee() + getThirdYearFee() + getFourthYearFee());
     }
    }
     private void openPayments()
