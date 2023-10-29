@@ -1,0 +1,29 @@
+/* dashboard-style.css */
+.dashboard-layout {
+    -fx-background-image: url('https://img.freepik.com/premium-photo/atm-machine-business-technology-with-pastel-blue-green-background-3d-render_576429-137.jpg');
+    -fx-background-size: cover; /* Adjust background size as needed */
+    -fx-background-repeat: no-repeat;
+}
+
+.dashboard-button {
+    -fx-background-color:tomato;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+.dashboard-button:hover {
+    -fx-background-color: green;
+}
+.green-button {
+    -fx-background-color:blue;
+    -fx-text-fill: white; 
+    -fx-font-weight: bold; 
+    -fx-pref-width: 100px; 
+}
+.green-button:hover 
+{
+    -fx-background-color: #4CAF50;
+}

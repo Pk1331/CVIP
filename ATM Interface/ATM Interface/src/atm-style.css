@@ -1,0 +1,26 @@
+.root {
+    -fx-background-image: url('https://img.freepik.com/premium-photo/atm-machine-business-technology-with-pastel-blue-green-background-3d-render_576429-137.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.display {
+    -fx-text-fill: black;
+}
+
+.label {
+    -fx-text-fill:black;
+}
+/* atm-style.css */
+.dashboard-button {
+    -fx-background-color: #3498db; /* Set the background color */
+    -fx-text-fill: white; /* Set the text color */
+    -fx-font-size: 14px; /* Set the font size */
+    -fx-padding: 10 20; /* Set padding around the text */
+    -fx-border-color: #2980b9; /* Set border color */
+    -fx-border-width: 2; /* Set border width */
+}
+
+.dashboard-button:hover {
+    -fx-background-color: #2980b9; /* Set background color on hover */
+}
